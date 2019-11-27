@@ -1,0 +1,9 @@
+[Unit]
+Description=Typed Switcher service
+
+[Service]
+ExecStart=/root/typed_switcher.py
+Type=idle
+
+[Install]
+WantedBy=basic.target
